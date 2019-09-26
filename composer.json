@@ -1,0 +1,19 @@
+{
+    "require": {
+        "monolog/monolog": "1.2.*",
+        "grpc/grpc": "^1.22",
+        "google/protobuf": "^3.9",
+        "predis/predis": "^1.1"
+    },
+	"autoload": {
+		"files": [
+            "function.php"
+        ],
+        "psr-4": {
+
+            "GPBMetadata\\":"grpc/GPBMetadata/",
+            "Greeter\\":"grpc/Greeter/"
+
+        }
+    }
+}
